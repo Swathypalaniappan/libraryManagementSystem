@@ -1,5 +1,5 @@
 import mysql.connector as a
-con = a.connect(host='localhost',port='3306',user='root',password='root',database='library',auth_plugin = 'caching_sha2_password')
+con = a.connect(host='localhost',port='3306',user='root',password=password,database='library')
 
 def addbook():
     bname = input('Enter Book Name:')
